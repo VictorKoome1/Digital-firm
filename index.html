@@ -1,118 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital-firm</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <script src="https://kit.fontawesome.com/16fa1b5c64.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script
+      src="https://kit.fontawesome.com/16fa1b5c64.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="banner" id="banner">
+      <div class="banner_container">
+        <div class="wrapper left">
+          <div class="h1_container">
+            <h1 class="heading text_white">Mobile App Development</h1>
+          </div>
 
-    <!-- 
-        * html has it's header semantic tag that code should look like this
-            <header>
-                ...
-            </header>
-        
-        * add a link to the
-        - logo image is missing alt value 
-        - also is recomended to wrapp it using a anchor tag which will take the user to home page
-            <a href="">
-                <img class="..." src="..." alt="company name logo image">
-            </a>
-        
-        * HTML has it is own Button tag
-        - <i class="fa fa-times" onclick="showMenu()"></i> is not a button and becasue of that
-        you should not add any kind of interaction to it
-        try this button 
-            <button>
-                Menu
-               <i class="fa fa-times" onclick="showMenu()"></i>
-            </button>
-
-    -->
-
-    <header>
-        ...
-    </header>
-
-    <section class="header">
-        <nav>
-            <img class="logo-img" src="images/default-logo.png" alt="">
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-bars" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="">Home</a></li>
-                </ul>
+          <div class="cards_container">
+            <div class="service_card md-shadow">
+              <div>
+                <img src="./assets/svg/icon-gr.svg" alt="" />
+                <div class="overlay"></div>
+              </div>
+              <h3>Strategy</h3>
             </div>
-            <i class="fa fa-times" onclick="showMenu()"></i>
-        </nav>
+            <!-- service_card -->
+            <div class="service_card md-shadow">
+              <div>
+                <img src="./assets/svg/icon-gr.svg" alt="" />
+                <div class="overlay"></div>
+              </div>
+              <h3>Strategy</h3>
+            </div>
+            <!-- service_card -->
+            <div class="service_card md-shadow">
+              <div>
+                <img src="./assets/svg/icon-gr.svg" alt="" />
+                <div class="overlay"></div>
+              </div>
+              <h3>Strategy</h3>
+            </div>
+            <!-- service_card -->
+            <div class="service_card md-shadow">
+              <div>
+                <img src="./assets/svg/icon-gr.svg" alt="" />
+                <div class="overlay"></div>
+              </div>
+              <h3>Strategy</h3>
+            </div>
+            <!-- service_card -->
+          </div>
+          <!-- cards_container -->
+          <div class="links_container">
+            <p class="text_white">
+              <span> Image from </span>
+              <a class="text_white" href="/">Frrepik</a>
+            </p>
+          </div>
+        </div>
+        <div class="wrapper right">
+          <img
+            class="banner_image"
+            src="./images/banner-side-image.jpeg"
+            alt="photo of Victor K."
+          />
+        </div>
+      </div>
+      <!-- banner_container -->
     </section>
 
-<section class="banner">
-    <div class="container">
-        <h1>Mobile App <br> Development</h1>
-    </div>
-    <div class="home">
-        <div class="boxes">
-            <div class="box">
-                <i class="fa fa-desktop"></i>
-                <h4>STRATEGY</h4>
-            </div>
-            <div class="box2">
-                <i class="fa fa-desktop"></i>
-                <h4>UX DESIGN</h4>
-            </div>
-            <div class="box3">
-                <i class="fa fa-desktop"></i>
-                <h4>DEVELOPMENT</h4>
-            </div>
-            <div class="box4">
-                <i class="fa fa-desktop"></i>
-                <h4>TESTING</h4>
-            </div>
-        </div>
-        
-        <div>
-            <img class="person1img" src="images/person-1img.jpeg" alt="">
-        </div>
-    </div>
-   
-
-</section>
-<p class="p1">Image from <a href="">Freepik</a></p>
-
-<section class="section2">
-    
-    <div>
-        <img class="fg-img" src="images/fg.jpg" alt="">
-    </div>
-    <div>
-        <div class="mains">
-        <button>Mobile App</button>
-        <h1>Stimulate your cognitive abilities while having fun</h1>
-        <p>images from <a href="">Freepik</a> and <a href="">Veectezy</a></p>
-         <div>
-            <p>Stimulate your cognitive abilities while having fun.
-            Inside 'Train your <br> brain' you will find a series of games
-            that will help you stimulate <br> different areas and will serve
-            as a daily brain training.
-        </p>
-         </div>
-        </div>
-
-    </div>
-    
-
-</section>
-
-
-
-
-
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
