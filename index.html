@@ -11,8 +11,22 @@
       src="https://kit.fontawesome.com/16fa1b5c64.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://kit.fontawesome.com/16fa1b5c64.js" crossorigin="anonymous"></script>
   </head>
-  <body>
+  <body id="body">
+    <div id="side-panel" class="side-bar">
+      <i id="timesx" onclick="collapse()" class="fa-solid fa-x"></i>
+      <h3>Home</h3>
+    </div>
+    <section id="header">
+      
+      <div>
+        <img src="images/default-logo.png" alt="">
+      </div>
+      <div class="hamburger">
+        <i onclick="clicked()" class="fa-sharp fa-solid fa-bars"></i>
+      </div>
+    </section>
 
     <section class="banner" id="banner">
       <div class="banner_container">
@@ -24,7 +38,7 @@
           <div class="cards_container">
             <div class="service_card md-shadow">
               <div>
-                <img src="./assets/svg/icon-gr.svg" alt="" />
+                <img class="icon" src="./assets/svg/icon-gr.svg" alt="" />
                 <div class="overlay"></div>
               </div>
               <h3>Strategy</h3>
@@ -32,7 +46,7 @@
             <!-- service_card -->
             <div class="service_card md-shadow">
               <div>
-                <img src="./assets/svg/icon-gr.svg" alt="" />
+                <img class="icon" src="./assets/svg/icon-gr.svg" alt="" />
                 <div class="overlay"></div>
               </div>
               <h3>Strategy</h3>
@@ -40,7 +54,7 @@
             <!-- service_card -->
             <div class="service_card md-shadow">
               <div>
-                <img src="./assets/svg/icon-gr.svg" alt="" />
+                <img class="icon" src="./assets/svg/icon-gr.svg" alt="" />
                 <div class="overlay"></div>
               </div>
               <h3>Strategy</h3>
@@ -48,7 +62,7 @@
             <!-- service_card -->
             <div class="service_card md-shadow">
               <div>
-                <img src="./assets/svg/icon-gr.svg" alt="" />
+                <img class="icon" src="./assets/svg/icon-gr.svg" alt="" />
                 <div class="overlay"></div>
               </div>
               <h3>Strategy</h3>
@@ -73,6 +87,311 @@
       </div>
       <!-- banner_container -->
     </section>
+
+    <!-------hero-container-------->
+    <section class="hero" id="hero">
+      <div class="hero_container">
+      <div class="hero-left">
+       <img src="images/fg.jpg" alt="">
+      </div>
+      <div class="hero-right">
+        <button class="app-btn">Mobile App</button>
+        <div>
+          <h2>Stimulate your cognitive abilities while having fun</h2>
+        </div>
+        <div class="text_gray">
+          <p>Images from <span>Freepik</span> and <span>Vecteezy</span></p>
+        </div>
+        <div class="description">
+          <p>Stimulate your cognitive abilities while having fun. Inside 'Train your brain' you will find a series of games that will help you stimulate different areas and will serve as a daily brain training.</p>
+        </div>
+        <div class="app-images">
+          <div class="app-image">
+              <img src="images/appstore.png" alt="">
+          </div>
+          <div class="app-image">
+            <img src="images/googleplay.png" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    </section>
+
+    <!-------What we do------->
+    <section id="work">
+      <div class="work-left">
+        <div class="center">
+         <div class="description01">
+          <h2>What We Do</h2>
+         </div>
+         <div class="description2">
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+         </div>
+         <div class="links_container2">
+          <p class="text_white2">
+            Image from 
+           <a class="text_white2" href="/">Freepik</a>
+         </p>
+        </div>
+        <div class="read-btn">
+          <button>READ MORE</button>
+        </div>
+      </div>
+      </div>
+      <div class="work-right">
+        <img src="images/dfdf.jpg" alt="">
+      </div>
+      
+    </section>
+
+    <!---------Testimonials-------->
+     <section id="testimonials">
+        <div class="testimonial_intro">
+          <h2>Testimonials
+          </h2>
+           <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+        <div class="testimonial_cards">
+          <div class="testimonial_card">
+            <div class="card-img">
+            <h3>Celia Almeda</h3>
+            <img src="images/celia.jpeg" alt="">
+          </div>
+            <p class="testimony">Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla pharetra diam sit amet nisl. </p>
+
+          </div>
+          <div class="testimonial_card">
+            <div class="card-img">
+              <h3>Frank Kinney</h3>
+              <img src="images/frank.jpeg" alt="">
+            </div>
+              <p class="testimony">Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla pharetra diam sit amet nisl. </p>
+  
+
+          </div>
+          <div class="testimonial_card">
+            <div class="card-img">
+              <h3>Nick Johnson</h3>
+              <img src="images/nick.jpeg" alt="">
+            </div>
+              <p class="testimony">Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla pharetra diam sit amet nisl. </p>
+  
+          </div>
+        </div>
+
+        <div class="test">
+          <p class="text_black">
+            Images from 
+           <a class="text_black" href="/">Freepik</a>
+         </p>
+        </div>
+     </section>
+
+     <!----------Services-------->
+     <section id="services">
+      
+      <div class="service_intro">
+        <h2>Company Services</h2>
+        <p>Sample text. Click to select the text box. Click again or double click to start editing the text. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu .</p>
+      </div>
+      <div class="empty"></div>
+      <div class="service-cards">
+        <div class="service-card">
+           <div class="service-img">
+              <img src="images/development.png" alt="">
+           </div>
+           <div class="service-description">
+               <h3>Prototyping</h3>
+               <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+           </div>
+           <div>
+            <div class="learn-btn">
+              <button style="cursor: pointer;">LEARN MORE</button>
+            </div>
+           </div>
+        </div>
+        <div class="service-card">
+           <div class="service-img">
+              <img src="images/development.png" alt="">
+           </div>
+           <div class="service-description">
+               <h3>Prototyping</h3>
+               <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+           </div>
+           <div>
+            <div class="learn-btn">
+              <button>LEARN MORE</button>
+            </div>
+           </div>
+        </div>
+        <div class="service-card">
+           <div class="service-img">
+              <img src="images/development.png" alt="">
+           </div>
+           <div class="service-description">
+               <h3>Prototyping</h3>
+               <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+           </div>
+           <div>
+            <div class="learn-btn">
+              <button>LEARN MORE</button>
+            </div>
+           </div>
+        </div>
+      </div>
+      
+      <div class="links_container3">
+        <p class="text_white">
+          <span> Images from </span>
+          <a class="text_white" href="/">Freepik</a>
+        </p>
+      </div>
+     </section>
+
+     <!--------dealership---------> 
+     <section id="dealership">
+      <div class="deals">
+        <h2>Love the way you work together?</h2>
+        <p class="p1">Faucibus a pellentesque sit amet porttitor eget dolor. Sed euismod nisi porta lorem mollis aliquam ut porttitor. Luctus accumsan tortor posuere ac ut consequat semper fames.</p>
+        <input type="email" placeholder="Enter a valid Email address">
+        <button>TRY FOR FREE</button>
+        <p class="assuarance">Free for 30 days  <span>.</span>  No Credit  <span>.</span> Card Required  <span>.</span> Cancel Anytime</p>
+        <h3>trusted by the world's best teams</h3>
+      </div>
+      <div class="teams">
+        <img src="images/1.svg" alt="">
+        <img src="images/logo-amazon.svg" alt="">
+        <img src="images/evga.svg" alt="">
+          <img src="images/tesla-9.svg" alt="">
+          <img src="images/sony-logo.svg" alt="">
+          
+      </div>
+     </section>
+
+     <section id="our_portfolio">
+      <div class="empty2"></div>
+      <div class="portfolio_images">
+        
+        <img src="images/businessman-checking-stock-market-online_53876-11970.jpg" alt="">
+        <img src="images/music-player-app-interface-set_23-2148547854.jpg" alt="">
+        <img src="images/cxcc.jpg" alt="">
+        <img src="images/vcvc.jpg" alt="">
+        <img src="images/vcv.jpg" alt="">
+        <img src="images/677.jpg" alt="">
+      </div>
+      <div class="portfolio_card">
+        <h3>Our Portfolio</h3>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <p>Image from <a href="">Freepik</a></p>
+        <div class="learn-btn">
+          <button>LEARN MORE</button>
+        </div>
+        
+      </div>
+     </section>
+
+     <!--------about_us------>
+     <section id="about_us">
+      <div class="about-images">
+        <img class="about-img1" src="images/rr3.jpg" alt="">
+        <img class="about-img2" src="images/io.jpg" alt="">
+      </div>
+          <div class="about_card">
+            <h3>About us</h3>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p class="thislink">Image from <a href="">Freepik</a></p>
+            <div class="learn-btn3">
+              <button>READ MORE</button>
+            </div>
+        </div>
+        <div class="empty3">
+         
+        </div>
+     </section>
+     <!--------our way--------->
+     <section id="our-way">
+      <div class="way-intro">
+        <h2>Our way
+        </h2>
+        <p>Our team is committed to making a positive impact for our clients, their users, and our community.</p>
+      </div>
+      <div class="years">
+        
+        <div class="year">
+          <h1>2020</h1>
+          <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.</p>
+        </div>
+        <div class="year">
+          <h1>2021</h1>
+          <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.</p>
+        </div>
+        <div class="year">
+          <h1>2022</h1>
+          <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.</p>
+        </div>
+        <div class="year">
+          <h1>2023</h1>
+          <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail.</p>
+        </div>
+        
+      </div>
+     </section>
+     <!----------footer---------> 
+     <section id="footer">
+      <div class="footer-left">
+         <div class="footer-intro">
+          <h3>Get in Touch</h3>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+         </div>
+         <div class="reach-outs">
+          <div class="reach-out">
+            <i class="fa-solid fa-envelope"></i>
+            <h3>CHART TO US</h3>
+            <P>Our friendly team is here to help.</P>
+            <a href="">hello@ourcompany.com</a>
+          </div>
+          <div class="reach-out">
+            <i class="fa-solid fa-location-dot"></i>
+            <h3>OFFICE</h3>
+            <P>Come say hello at our office HQ.</P>
+            <a href="">121 Lumumba Drive-in</a><br>
+            <a href="">Moi Avenue, Nairobi</a>
+          </div>
+          <div class="reach-out">
+            <i class="fa-solid fa-phone"></i>
+            <h3>PHONE</h3>
+            <p>Mon-Fri from 8am to 5am</p>
+            <a href="">+1(555)000-000</a>
+          </div>
+          <div class="social-icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
+         </div>
+      </div>
+      <div class="footer-right">
+          <div>
+            <h2>Level up your brand</h2>
+       <p>You can reach us anytime via <span>hello@ourcompany.com</span></p>  
+          </div>
+          <form action="">
+            <label for="name">Name</label> <br>
+            <input id="name" type="text" placeholder="Enter your name"> <br>
+            <label for="email">Email</label> <br>
+            <input type="email" name="email" placeholder="Enter a valid email address"><br>
+            <label for="phone">Phone</label><br>
+            <input type="number" name="phone" placeholder="Enter your phone (e.g.+137654453)"><br>
+            <label for="">How can we help?</label> <br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+            <button>SUBMIT</button>
+          </form>
+      </div>
+     </section>
 
     <script src="script.js"></script>
   </body>
