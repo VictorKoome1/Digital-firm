@@ -70,8 +70,12 @@ body {
   #header img {
     margin-left: 0px;
   }
+
+  .logo-img {
+    padding-left: 30px;
+  }
   #header .hamburger {
-    margin-right: 0;
+    margin-right: 16px;
     padding-left: 40px;
     cursor: pointer;
   }
