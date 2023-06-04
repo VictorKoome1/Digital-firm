@@ -13,13 +13,13 @@ function clicked() {
     sideEl.style.opacity = "1"
     // bodyEl.style.opacity ="0.9"
     // bodyEl.style.collapse = "40px"
-    bannerEl.style.opacity = "0.8";
+    bannerEl.style.opacity = "0.9";
     universalEl.style.overflow = "hidden"
 }
 
 function collapse() {
     sideEl.style.left = "-250px";
-    bodyEl.style.opacity ="1";
+    bannerEl.style.opacity ="1";
     universalEl.style.overflow = "scroll"
 }
 
