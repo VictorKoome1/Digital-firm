@@ -1100,7 +1100,7 @@ overflow-y: hidden;
   .portfolio_card {
     width: 315px;
   height: 500px;
-  left: 21px;
+  left: 34px;
   top: 60px;
   bottom: 160px;
   overflow-y: hidden;
@@ -1200,7 +1200,7 @@ top: 190px
    height: 150vh;
   }
   .about_card {
-    left: 26px;
+    left: 35px;
     width: 300px;
     top: 20px;
   }
@@ -1216,7 +1216,7 @@ top: 190px
    left: 15px;
   }
   .about-img2 {
-    top: 680px;
+    top: 699px;
     left: 74px;
   }
 }
